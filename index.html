@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сдвоенный календарь</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="input-container">
+        <label for="date-from">Дата от</label>
+        <div class="date-input" id="date-from">
+            <input type="text" id="date-from-input" readonly>
+            <div class="calendar-wrapper" id="calendar-from"></div>
+        </div>
+        <span class="error-message" id="error-from"></span>
+    </div>
+    <div class="input-container">
+        <label for="date-to">Дата до</label>
+        <div class="date-input" id="date-to">
+            <input type="text" id="date-to-input" readonly>
+            <div class="calendar-wrapper" id="calendar-to"></div>
+        </div>
+        <span class="error-message" id="error-to"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
